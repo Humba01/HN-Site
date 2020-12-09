@@ -1,0 +1,18 @@
+.rodape {
+    display: inline-block;
+    background-color: #000000ff;
+    border-top-color: #444444;
+    border-top-width: 0.5vw;
+    border-top-style: solid;
+    width: 100vw;
+}
+
+.rodape_titulo {
+    font-family: 'Ubuntu-Light';
+    font-size: 28px;
+    font-weight: 800;
+    padding: 2vw 1vw;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+}

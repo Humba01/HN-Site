@@ -1,0 +1,147 @@
+.heverdev_titulo {
+    font-family: 'Baumans-Regular';
+    display: inline-block;
+    color: #ffffff;
+    background-color: #0099ff;
+    text-align: center;
+    align-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 66px;
+    margin-bottom: 2vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    border-bottom-right-radius: 9px;
+}
+
+.text_conteiner {
+    display: block;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.text_heverdev {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    font-size: 54px;
+    font-weight: 500;
+    color: #333333;
+    text-shadow: 1.4px 1px #0099ff, 1.8px 2px #0066ff;
+    background-color: #999999;
+    padding: 0.6vw 0.4vw;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.development_studios_titulo, .blueprints_titulo {
+    display: inline-block;
+    font-family: 'Baumans-Regular';
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0.6vw 0.4vw;
+    border-radius: 7px;
+    padding-right: 10vw;
+    margin-left: 1.4vw;
+}
+
+.projetos, .blueprints {
+    display: inline-block;
+    width: 96vw;
+    background-color: #4466ff;
+    margin-top: 10px;
+    margin-left: 1.4vw;
+    margin-bottom: 1vw;
+    border-radius: 8px;
+}
+
+.blueprints {
+    background-color: #20b2aa;
+    margin-bottom: 3vw;
+}
+
+.dev_std_cat__conteiner {
+    display: inline-block;
+    width: 28vw;
+    margin-top: 1.2vw;
+    margin-left: 1vw;
+    background-color: #4488ff;
+    padding: 0.6vw 0.8vw;
+    border-radius: 6px;
+    align-content: center;
+    text-align: center;
+}
+
+#card1 {
+    margin-left: 2vw;
+}
+
+.dev_std_cat__titulo {
+    display: block;
+    font-family: 'Ubuntu-Light';
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+}
+
+.development_studios__categories {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+.dev_std_cat__card {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    color: #4e4e4e;
+    background-color: #ffffff77;
+    padding: 0.6vw 0.4vw;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1vw;
+}
+
+.dev_std_cat__card:hover {
+    background-color: #ffffffdd;
+}
+
+.dev_std_cat__card___txt {
+    margin-top: 0.4vw;
+    font-size: 24px;
+    margin-bottom: 1vw;
+}
+
+.blueprints_card {
+    display: inline-block;
+    width: 90vw;
+    background-color: #ffffff77;
+    padding: 0.6vw 0.4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2.5vw;
+    border-radius: 10px;
+}
+
+.blueprints_card__item {
+    font-family: 'Ubuntu-Light';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.div_spam {
+    color: #ffffff;
+    font-family: 'Ubuntu-Light';
+    font-size: 32px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    align-content: center;
+    text-align: center;
+}
+
+.warn_spam {
+    padding: 0.6vw 0.4vw;
+    border-radius: 4px;
+}

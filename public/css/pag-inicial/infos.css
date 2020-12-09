@@ -1,0 +1,56 @@
+.infos {
+    display: inline-block;
+}
+
+.infos_titulo {
+    font-family: 'Baumans-Regular';
+    display: inline-block;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 13px;
+    text-align: start;
+    align-content: center;
+    padding: 1vw 1.6vw;
+    width: 60vw;
+    font-size: 60px;
+    margin-top: 2vw;
+    margin-left: 1.4vw;   
+}
+
+.infos_desc_div {
+    display: inline-block;
+    margin-left: 1.4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.infos_desc_text {
+    display: inline-block;
+    background-color: #0044ff66;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Light';
+    font-weight: 600;
+    font-size: 40px;
+    padding: 0.4vw 0.6vw;
+    width: 95vw;
+    text-align: justify;
+    line-height: 3.8vw;
+}
+
+#text1 {
+    background-color: #66226666;
+}
+
+#text2 {
+    background-color: #ff770077;
+}
+
+#text3 {
+    background-color: #b22222cc;
+}
+
+.infos_email {
+    font-weight: 900;
+    text-shadow: 2px 3.6px #000000;
+}

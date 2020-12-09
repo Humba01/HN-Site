@@ -1,0 +1,102 @@
+.treatplay_titulo {
+    font-family: 'Baumans-Regular';
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ffcc00;
+    text-align: center;
+    align-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 66px;
+    margin-right: 4vw;
+    margin-bottom: 2vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    border-bottom-right-radius: 9px;
+}
+
+.text_treatplay {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    font-size: 54px;
+    font-weight: 500;
+    color: #333333;
+    text-shadow: 1.4px 1px #ffcc00, 1.8px 2px #ffbb00;
+    background-color: #999999;
+    padding: 0.6vw 0.4vw;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.vibes_musics_tracks_conteiner {
+    display: inline-block;
+    margin-left: 1.4vw;
+    margin-bottom: 2vw;
+    width: 80vw;
+}
+
+.vibes_musics_titulo {
+    display: inline-block;
+    font-family: 'Baumans-Regular';
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0.6vw 0.4vw;
+    border-radius: 7px;
+    padding-right: 10vw;
+
+}
+
+.vibes_musics_categories_conteiner {
+    display: inline-block;
+    width: 96vw;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.vibes_musics_playlists_cont {
+    display: inline-block;
+    background-color: #ffdd00;
+    width: 47.2vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    text-align: center; 
+    align-content: center;
+    cursor: pointer;  
+    border-radius: 6px; 
+}
+
+.vibes_musics_playlists_cont:hover {
+    background-color: #ff9900;
+}
+
+.vibes_musics_playlists__capa {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 4px;
+}
+
+#div_vm1 {
+    margin-left: 0vw;
+}
+
+#div_vm2 {
+    margin-left: 1vw;
+}
+
+.vibes_musics_playlists__titulo,
+.vibes_musics_playlists__subtitulo {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+.vibes_musics_playlists__subtitulo {
+    color: #4f4f4f;
+    font-weight: 500;
+}

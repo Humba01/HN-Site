@@ -1,0 +1,52 @@
+.wiki_titulo {
+    font-family: 'Baumans-Regular';
+    display: inline-block;
+    color: #ffffff;
+    background-color: #888888dd;
+    text-align: center;
+    align-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 66px;
+    margin-bottom: 2vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    border-bottom-right-radius: 9px;
+}
+
+.text_wiki {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    font-size: 54px;
+    font-weight: 500;
+    color: #333333;
+    text-shadow: 1.4px 1px #fdfdfd, 1.8px 2px #fafafa;
+    background-color: #999999;
+    padding: 0.6vw 0.4vw;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.wiki_conteiner {
+    display: inline-block;
+}
+
+.wiki_card {
+    display: inline-block;
+    width: 96vw;
+    background-color: #363636;
+    margin-top: 10px;
+    margin-left: 1.4vw;
+    margin-bottom: 1vw;
+    border-radius: 8px;
+    font-family: 'Ubuntu-Light';
+}
+
+.wiki_card__titulo {
+    font-size: 32px;
+    color: #ffffff;
+    align-content: center;
+    text-align: center;
+    margin-top: 1.4vw;
+    margin-bottom: 3vw;
+}

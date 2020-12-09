@@ -1,0 +1,34 @@
+.cabecalho_conteiner {
+    display: inline-block;
+    background-color: #000000ff;
+    width: 100vw;
+    border-bottom-color: #444444;
+    border-bottom-width: 0.2vw;
+    border-bottom-style: solid;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.cabecalho_cont_parent {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo_part_i {
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 65px;
+    height: 65px;
+}
+
+.logo_part_ii {
+    font-family: 'Galaxy-Experience-Regular';
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 0.8vw;
+    padding-bottom: 1.2vw;
+    color: #ffffff;
+}

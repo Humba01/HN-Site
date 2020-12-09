@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: 'Galaxy-Experience-Regular';
+    src: url('../fonts/Galaxy-Experience.woff2');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Baumans-Regular';
+    src: url('../fonts/Baumans-Regular.ttf');
+}
+.background_conteiner {
+    background-color: #566770;
+    width: 100vw;
+    color: #ffffff;
+    text-align: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+}
+
+.menssagem_logo__txt {
+    text-transform: uppercase;
+    font-family: 'Galaxy-Experience-Regular';
+    font-size: 40px;
+    padding: 0.6vw 0.4vw;
+}
+
+.menssagem_logo__img {
+    width: 300px;
+    height: 300px;
+    margin-top: 8vw;
+}
+
+.menssagem_construcao {
+    font-family: 'Ubuntu-Light';
+    font-size: 28px;
+    margin-top: 2vw;
+    padding-bottom: 1vw;
+}
+.rodape {
+    display: inline-block;
+    background-color: #000000ff;
+    border-top-color: #444444;
+    border-top-width: 0.5vw;
+    border-top-style: solid;
+    width: 100vw;
+}
+
+.rodape_titulo {
+    font-family: 'Ubuntu-Light';
+    font-size: 28px;
+    font-weight: 800;
+    padding: 2vw 1vw;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    text-align: center;
+    color: #ffffff;
+}

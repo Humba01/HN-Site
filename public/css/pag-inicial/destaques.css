@@ -1,0 +1,83 @@
+.destaques_conteiner {
+    display: inline-block;
+}
+
+.destaques_titulo {
+    display: inline-block;
+    font-family: 'Baumans-Regular';
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 13px;
+    text-align: start;
+    align-content: center;
+    padding: 1vw 1.6vw;
+    width: 60vw;
+    font-size: 60px;
+    margin-top: 2vw;
+    margin-left: 1.4vw;
+}
+
+.destaques_card_conteiner {
+    font-family: 'Ubuntu-Light';
+    background-color: #44ff44;
+    border-radius: 6px;
+    margin-left: 1.4vw;
+    margin-top: 1vw;
+    margin-bottom: 1.6vw;
+    width: 96.4vw;
+}
+
+.destaques_subcard_conteiner {
+    display: inline-block;
+    background-color: #22ff22;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 8px;
+    align-content: center;
+    text-align: center;
+    padding: 1vw 1.2vw;
+    width: 44vw;
+}
+
+#card_calc1 {
+    margin-left: 1vw;
+}
+
+.destaques_subcard_logo {
+    display: inline-block;
+}
+
+.destaques_subcard__titulo {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 900;
+    margin-top: 0.6vw;
+}
+
+.destaques_subcard__descricao {
+    color: #454545;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0.6vw;
+}
+
+.destaques_subcard__ancora {
+    text-decoration: none;
+}
+
+.destaques_subcard__link {
+    color: #202020;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0.6vw;
+    background-color: #00dd00;
+    border-radius: 8px;
+    padding: 0.8vw 0.6vw;
+    cursor: pointer;
+    border-bottom: #ffffff;    
+}
+
+.destaques_subcard__link:hover {
+    background-color: #00dd66;
+}

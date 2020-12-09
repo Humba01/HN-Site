@@ -9,7 +9,7 @@ setTimeout(function() {
 setTimeout(function() {
     window.scrollTo(scrollX, 0);
 }, 300);
-
+/*
 const cardsProjects= [
     document.getElementById('calc_card1'),
     document.getElementById('calc_card2'),
@@ -146,7 +146,7 @@ cardsProjects[11].addEventListener("mouseout", function() {
     spam.textContent = '';
     spam.style.backgroundColor = '#ffffff00';
 });
-
+*/
 const btnSubmit = document.getElementById('submit_email');
 const textSlogan = document.getElementById('check01');
 
@@ -230,7 +230,7 @@ var menuButton2 = document.getElementById("menu_btn2");
 var menuButton3 = document.getElementById("menu_btn3");
 var menuButton4 = document.getElementById("menu_btn4");
 var menuButtonMain = document.getElementById("btn_main");
-
+/*
 var btnVer1 = document.getElementById("btn_ver1");
 var btnVer2 = document.getElementById("btn_ver2");
 
@@ -251,7 +251,7 @@ btnVer2.addEventListener("click", function() {
     pageMain.style.display = 'none';
     scrollTo(scrollX, 0);
 });
-
+*/
 menuButton1.addEventListener("click", function() {
     page1.style.display = 'inline-block';
     page2.style.display = 'none';

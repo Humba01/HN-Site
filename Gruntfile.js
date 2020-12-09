@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 
             html: {
                 src: 'dist/html'
-            }
+            },
 
             outros: {
                 src: 'dist/remodelagem-subdivisoes.txt'
@@ -141,7 +141,7 @@ module.exports = function(grunt) {
     });
 
 
-    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'htmlmin', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js']);
+    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'htmlmin', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
     grunt.registerTask('serverDev', ['connect:serverDev']);
     grunt.registerTask('serverProd', ['connect:serverProd']);
 

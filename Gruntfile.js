@@ -27,6 +27,10 @@ module.exports = function(grunt) {
                 src: 'dist/jasmine'
             },
 
+            html: {
+                src: 'dist/html'
+            }
+
             outros: {
                 src: 'dist/remodelagem-subdivisoes.txt'
             },

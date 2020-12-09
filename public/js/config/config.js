@@ -9,7 +9,7 @@ setTimeout(function() {
 setTimeout(function() {
     window.scrollTo(scrollX, 0);
 }, 300);
-
+/*
 const cardsProjects= [
     document.getElementById('calc_card1'),
     document.getElementById('calc_card2'),
@@ -146,5 +146,5 @@ cardsProjects[11].addEventListener("mouseout", function() {
     spam.textContent = '';
     spam.style.backgroundColor = '#ffffff00';
 });
-
+*/
 const btnSubmit = document.getElementById('submit_email');

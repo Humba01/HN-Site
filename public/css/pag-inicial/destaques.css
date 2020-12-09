@@ -27,6 +27,15 @@
     width: 96.4vw;
 }
 
+.destaques_warning {
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+    padding: 0.8vw 0.6vw;
+    text-shadow: 1px 2px #ffffff;
+    margin-left: 6vw;
+}
+
 .destaques_subcard_conteiner {
     display: inline-block;
     background-color: #22ff22;

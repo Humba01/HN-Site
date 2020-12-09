@@ -56,6 +56,16 @@
     border-radius: 8px;
 }
 
+.projetos_warning {
+    display: inline-block;
+    font-family: 'Ubuntu-Light';
+    text-align: center;
+    font-size: 60px;
+    padding: 0.8vw 0.6vw;
+    text-shadow: 1px 2px #ffffff;
+    margin-left: 6vw;
+}
+
 .blueprints {
     background-color: #20b2aa;
     margin-bottom: 3vw;

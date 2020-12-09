@@ -10,7 +10,7 @@ var menuButton2 = document.getElementById("menu_btn2");
 var menuButton3 = document.getElementById("menu_btn3");
 var menuButton4 = document.getElementById("menu_btn4");
 var menuButtonMain = document.getElementById("btn_main");
-
+/*
 var btnVer1 = document.getElementById("btn_ver1");
 var btnVer2 = document.getElementById("btn_ver2");
 
@@ -31,7 +31,7 @@ btnVer2.addEventListener("click", function() {
     pageMain.style.display = 'none';
     scrollTo(scrollX, 0);
 });
-
+*/
 menuButton1.addEventListener("click", function() {
     page1.style.display = 'inline-block';
     page2.style.display = 'none';

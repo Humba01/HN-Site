@@ -1,0 +1,25 @@
+/* Espaço do rodape */
+
+.rodape {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 12px;
+  width: 98vw;
+}
+
+/* Fonte do texto do rodape */
+
+.rodape_texto {
+  font-family: 'font_Ubuntu_Regular';
+  font-size: 20px;
+  margin-top: 0.2%;
+  padding-bottom: 1%;
+}
+
+/* Texto do rodape */
+
+.rodape_copyright {
+  padding-top: 1.5%;
+}

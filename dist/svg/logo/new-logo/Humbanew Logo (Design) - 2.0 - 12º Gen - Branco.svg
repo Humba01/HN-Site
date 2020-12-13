@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="280mm"
+   viewBox="0 0 297 280"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Humbanew Logo (Design) - 2.0 - 12º Gen - Branco.svg"
+   inkscape:export-filename="C:\Users\humba\OneDrive\Google Drive Arquivos\Humbanew Projects\Humbanew Logotypes Remodels\Humbanew Logo 12º Gen\Humbanew Logo (Design) 12º Gen - Branco.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient84"
+       inkscape:collect="always">
+      <stop
+         id="stop80"
+         offset="0"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1"
+         offset="0.28792629"
+         id="stop90" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="0.53879887"
+         id="stop88" />
+      <stop
+         id="stop92"
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1" />
+      <stop
+         id="stop82"
+         offset="1"
+         style="stop-color:#ffff00;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="85.773735"
+       x2="259.83893"
+       y1="-160.01759"
+       x1="257.42911"
+       id="linearGradient86"
+       xlink:href="#linearGradient84"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     showguides="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-753.09342"
+     inkscape:cy="435.90956"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4765"
+     showgrid="false"
+     inkscape:window-width="1350"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="true"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,123)">
+    <g
+       id="g4550-8"
+       transform="translate(21.237481,-58.342047)" />
+    <g
+       id="g4765"
+       transform="translate(-111.18412,51.315749)">
+      <path
+         id="path41"
+         d="m 200.99818,-40.016382 0.40173,-86.620608 56.02919,-33.3806 55.82833,33.7422 -0.40173,86.620609 -15.93997,-29.427511 v -47.624998 l -39.6875,-23.8125 -39.68749,23.8125 v 47.624998 l -16.54256,29.06591 -39.6875,23.812497 v 47.624994 l 39.6875,23.8125 39.68749,-23.8125 32.48254,0.361606 -72.3709,42.948706 -55.82833,-33.742209 0.20087,-67.122798 56.02919,-33.380601 0.20087,-67.122803 56.02919,-33.3806 55.82833,33.7422 -0.40173,86.620609 39.6875,23.812499 0.14174,47.624997 -39.82924,23.8125 -39.68749,-23.8125 -16.34171,9.568103 55.82834,33.742198 56.02919,-33.380597 0.20087,-67.122804 -55.82833,-33.742201 0.20086,-67.122804 -55.82833,-33.7422 -56.02919,33.3806 z"
+         style="fill:url(#linearGradient86);fill-opacity:1;stroke:#ffffff;stroke-width:3.865;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -56,7 +56,10 @@ module.exports = function(grunt) {
                     'dist/css/pag-wiki', 
                     'dist/css/pag-worldteam', 
                     'dist/css/29eb.fonts.css',
-                    'dist/css/6199.reset.css'
+                    'dist/css/6199.reset.css',
+                    'dist/css/configs',
+                    'dist/css/sgmp',
+                    'dist/css/unote'
                 ]
             },
 
@@ -121,7 +124,7 @@ module.exports = function(grunt) {
                 browsers: 'last 500 versions'
             },
             your_target: {
-                src: 'dist/css/**/*.css'
+                src: 'dist/**/*.css'
             },
         },
 
@@ -137,7 +140,7 @@ module.exports = function(grunt) {
                 dest: 'dist/img'
             }
         },
-
+/*
         htmlmin: {                                     // Task
             dist: {                                      // Target
               options: {                                 // Target options
@@ -145,15 +148,17 @@ module.exports = function(grunt) {
                 collapseWhitespace: true
               },
               files: {                                   // Dictionary of files
-                'dist/index.html': 'src/index.html',     // 'destination': 'source'
-                'dist/contact.html': 'src/contact.html'
+                'dist/index.html': 'public/index.html',     // 'destination': 'source'
+                'dist/build.html': 'public/build.html',
+                'dist/sgmp.html': 'HN-SGMP/sgmp.html',
+                'dist/unote.html': 'Humbanew-UNote-Beta/unote.html'
               }
             }
-          }
+          }*/
     });
 
 
-    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'htmlmin', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
+    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
     grunt.registerTask('serverDev', ['connect:serverDev']);
     grunt.registerTask('serverProd', ['connect:serverProd']);
 

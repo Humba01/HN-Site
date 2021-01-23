@@ -8,6 +8,18 @@ module.exports = function(grunt) {
                 src: '**',
                 dest: 'dist'
             }
+            sgmp: {
+                expand: true,
+                cwd: 'HN-SGMP',
+                src: '**',
+                dest: 'dist'
+            }
+            unote: {
+                expand: true,
+                cwd: 'Humbanew-Unote-Beta',
+                src: '**',
+                dest: 'dist'
+            }
         },
 
         clean: {
@@ -114,7 +126,7 @@ module.exports = function(grunt) {
         },
 
         jshint: {
-            all: 'public/js/**/*.js'
+            all: ['public/js/**/*.js', 'HN-SGMP/js/**/*.js', 'Humbanew-Unote-Beta/js/**/*.js']
         },
 
         imagemin: {    

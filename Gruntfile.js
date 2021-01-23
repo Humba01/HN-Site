@@ -7,13 +7,13 @@ module.exports = function(grunt) {
                 cwd: 'public',
                 src: '**',
                 dest: 'dist'
-            }
+            },
             sgmp: {
                 expand: true,
                 cwd: 'HN-SGMP',
                 src: '**',
                 dest: 'dist'
-            }
+            },
             unote: {
                 expand: true,
                 cwd: 'Humbanew-Unote-Beta',

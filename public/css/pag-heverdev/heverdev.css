@@ -56,6 +56,8 @@
     border-radius: 8px;
 }
 
+/* Projetos (Development Studios) */
+
 .projetos_warning {
     display: inline-block;
     font-family: 'Ubuntu-Light';
@@ -64,6 +66,10 @@
     padding: 0.8vw 0.6vw;
     text-shadow: 1px 2px #ffffff;
     margin-left: 6vw;
+}
+
+.projetos_card {
+    display: inline-block;
 }
 
 .blueprints {

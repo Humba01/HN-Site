@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         },
 
         usemin: {
-            html: 'dist/**/*.html'
+            html: 'dist/**/*.html',
         },
 
         rev: {
@@ -94,10 +94,6 @@ module.exports = function(grunt) {
             css: {
                 src: 'dist/**/*.css'
             },
-
-            html: {
-                src: 'dist/**/*.html'
-            }
         },
 
         connect: {
@@ -140,7 +136,7 @@ module.exports = function(grunt) {
                 dest: 'dist/img'
             }
         },
-/*
+
         htmlmin: {                                     // Task
             dist: {                                      // Target
               options: {                                 // Target options
@@ -148,17 +144,17 @@ module.exports = function(grunt) {
                 collapseWhitespace: true
               },
               files: {                                   // Dictionary of files
-                'dist/index.html': 'public/index.html',     // 'destination': 'source'
+                'dist/default.html': 'public/default.html',     // 'destination': 'source'
                 'dist/build.html': 'public/build.html',
                 'dist/sgmp.html': 'HN-SGMP/sgmp.html',
                 'dist/unote.html': 'Humbanew-UNote-Beta/unote.html'
               }
             }
-          }*/
+          }
     });
 
 
-    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
+    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'htmlmin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
     grunt.registerTask('serverDev', ['connect:serverDev']);
     grunt.registerTask('serverProd', ['connect:serverProd']);
 

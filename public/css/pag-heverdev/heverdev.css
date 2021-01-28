@@ -80,6 +80,7 @@
     border-bottom-right-radius: 7px;
     border-top-right-radius: 5px;
     box-shadow: 4px 4px 2px #000000;
+    text-decoration: none;
 }
 
 .projetos_card__nome,

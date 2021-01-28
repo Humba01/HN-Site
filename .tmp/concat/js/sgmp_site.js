@@ -298,7 +298,7 @@ function mostraPaginaNumeroUm() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroDois() {
   paginaUm.style.display = "none";
@@ -306,7 +306,7 @@ function mostraPaginaNumeroDois() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroTres() {
   paginaUm.style.display = "none";
@@ -314,7 +314,7 @@ function mostraPaginaNumeroTres() {
   paginaTres.style.display = "inline-block";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroQuatro() {
   paginaUm.style.display = "none";
@@ -322,7 +322,7 @@ function mostraPaginaNumeroQuatro() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "inline-block";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroCinco() {
   paginaUm.style.display = "none";
@@ -330,7 +330,7 @@ function mostraPaginaNumeroCinco() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "inline-block";
-}
+};
 
 const visao1 = cardUmUiZero.addEventListener("click", function() {
   mostraPaginaNumeroDois();

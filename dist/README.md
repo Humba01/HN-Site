@@ -1,3 +1,3 @@
-# Humbanew UNote Beta
+# HN-SGMP
 
-_O Bloco de notas diferenciado._
+_Uma super plataforma de modificações para jogos._

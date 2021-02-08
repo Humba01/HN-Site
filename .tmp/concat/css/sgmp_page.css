@@ -61,6 +61,7 @@ table {
     width: 100vw;
     border-bottom-color: #444444;
     border-bottom-width: 0.2vw;
+    text-decoration: none;
     border-bottom-style: solid;
     position: -webkit-sticky;
     position: sticky;
@@ -78,7 +79,7 @@ table {
 
 .cab_conteiner_title {
     display: inline-block;
-    background-color: #0000ff;
+    background-color: #ff5500;
     color: #eeeeee;
     margin-left: 40vw;
     margin-top: 3vw;

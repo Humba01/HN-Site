@@ -1,0 +1,22 @@
+{
+  "name": "hn-sgmp",
+  "version": "1.0.0",
+  "description": "_Uma super plataforma de modificações para jogos._",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humba01/HN-SGMP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humba01/HN-SGMP/issues"
+  },
+  "homepage": "https://github.com/Humba01/HN-SGMP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -49,9 +49,22 @@
                 
         </header>
 
-        <section class="main_page_conteiner" id="pag_main">
+        <script>
+          const page = document.getElementById("corpo");
 
-        
+          page.style.overflowX = "hidden";
+
+          setTimeout(function() {
+              window.scrollTo(0, scrollY);
+          }, 80);
+
+          setTimeout(function() {
+              window.scrollTo(scrollX, 0);
+          }, 300);
+
+        </script>
+
+        <section class="main_page_conteiner" id="pag_main">
             
             <div class="conteiner_welcome_text">
                 <p class="welcome_menssagem">Innovations to the<p class="welcome_menssagem_marcacao" id="check01">World.</p></p>
@@ -124,7 +137,7 @@
                     <div class="projetos_card">
                         <p class="projetos_card__nome">HN SGMP</p>
                         <!-- Local para manutenção... -->
-                        <a class="projetos_card__ancora" id="projetos_card_a1" href="sgmp.html">
+                        <a class="projetos_card__ancora" id="projetos_card_a1" href="sgmp/sgmp.html">
                             <button class="projetos_card__botao">Acessar</button>
                         </a>
                     </div>
@@ -139,25 +152,28 @@
                 <div class="blueprints">
 
                     <div class="blueprints_card">
-                        <p class="blueprints_card__item">Calculator - A Calculadora dos sonhos.</p>
+                        <p class="blueprints_card__item">RCalc - A Calculadora dos sonhos.</p>
                     </div>
                     <div class="blueprints_card">
                         <p class="blueprints_card__item">UNote - Um bloco de notas diferenciado.</p>
                     </div>
                     <div class="blueprints_card">
-                        <p class="blueprints_card__item">Styrim Project - A IA da Humbanew.</p>
+                        <p class="blueprints_card__item">AStyrim - A IA da Humbanew.</p>
                     </div>
                     <div class="blueprints_card">
                         <p class="blueprints_card__item">SGMP - Uma super plataforma de modificações para jogos.</p>
                     </div>
                     <div class="blueprints_card">
-                        <p class="blueprints_card__item">HNOS - O Sistema Operacional da Humbanew.</p>
+                        <p class="blueprints_card__item">GSystem - O Sistema Operacional da Humbanew.</p>
                     </div>
                     <div class="blueprints_card">
                         <p class="blueprints_card__item">Inquiry Mod for Minecraft Java Edition.</p>
                     </div>
                     <div class="blueprints_card">
-                        <p class="blueprints_card__item">Cubbus Project - Criação de de um jogo similar ao 2048 tradicional</p>
+                        <p class="blueprints_card__item">WCube - Criação de um jogo similar ao 2048 tradicional</p>
+                    </div>
+                    <div class="blueprints_card">
+                        <p class="blueprints_card__item">DPass - Gerador de senhas para ajudar na segurança dos usuários.</p>
                     </div>
 
                 </div>
@@ -257,10 +273,8 @@
 
         <!-- build:js js/build/index_page.js -->
 
-        <script src="js/config/config.js"></script>  
         <script src="js/background/text-animation.js"></script>
         <script src="js/config/pages_config.js"></script>
-        <script src="js/config/directory.js"></script>
 
         <!-- endbuild -->
 

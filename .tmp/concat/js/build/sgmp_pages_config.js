@@ -273,93 +273,59 @@ cmg_1.textContent = "01 Mod(s)";
 cmg_1_1.textContent = "Fabric - 01 Mod(s)";
 cmg_1_2.textContent = "Forge - 00 Mod(s)";
 
-//Páginas
-const paginaUm = document.getElementById("sgmp_pag1");
-const paginaDois = document.getElementById("sgmp_pag2");
-const paginaTres = document.getElementById("sgmp_pag3");
-const paginaQuatro = document.getElementById("sgmp_pag4");
-const paginaCinco = document.getElementById("sgmp_pag5");
+const page1 = document.getElementById("pag_cont1");
+const page2 = document.getElementById("pag_cont2");
+const page3 = document.getElementById("pag_cont3");
+const page4 = document.getElementById("pag_cont4");
+const pageMain = document.getElementById("pag_main"); 
+ 
+const menuButton1 = document.getElementById("menu_btn1");
+const menuButton2 = document.getElementById("menu_btn2");
+const menuButton3 = document.getElementById("menu_btn3");
+const menuButton4 = document.getElementById("menu_btn4");
+const menuButtonMain = document.getElementById("btn_main");
 
-//Elementos Clicáveis
-const cardUmUiZero = document.getElementById("card1__ui0");
-const cardUmUiUm = document.getElementById("card1__ui1");
-const cardDoisUiUm = document.getElementById("card2__ui1");
-const cardUmUiUmUnderlineUm = document.getElementById("card1__ui1_1");
-
-//Botões de Retorno
-const botaoRetorno1 = document.getElementById("btn_return1");
-const botaoRetorno2 = document.getElementById("btn_return2");
-const botaoRetorno3 = document.getElementById("btn_return3");
-const botaoRetorno4 = document.getElementById("btn_return4");
-
-function mostraPaginaNumeroUm() {
-  paginaUm.style.display = "inline-block";
-  paginaDois.style.display = "none";
-  paginaTres.style.display = "none";
-  paginaQuatro.style.display = "none";
-  paginaCinco.style.display = "none";
-}
-
-function mostraPaginaNumeroDois() {
-  paginaUm.style.display = "none";
-  paginaDois.style.display = "inline-block";
-  paginaTres.style.display = "none";
-  paginaQuatro.style.display = "none";
-  paginaCinco.style.display = "none";
-}
-
-function mostraPaginaNumeroTres() {
-  paginaUm.style.display = "none";
-  paginaDois.style.display = "none";
-  paginaTres.style.display = "inline-block";
-  paginaQuatro.style.display = "none";
-  paginaCinco.style.display = "none";
-}
-
-function mostraPaginaNumeroQuatro() {
-  paginaUm.style.display = "none";
-  paginaDois.style.display = "none";
-  paginaTres.style.display = "none";
-  paginaQuatro.style.display = "inline-block";
-  paginaCinco.style.display = "none";
-}
-
-function mostraPaginaNumeroCinco() {
-  paginaUm.style.display = "none";
-  paginaDois.style.display = "none";
-  paginaTres.style.display = "none";
-  paginaQuatro.style.display = "none";
-  paginaCinco.style.display = "inline-block";
-}
-
-const visao1 = cardUmUiZero.addEventListener("click", function() {
-  mostraPaginaNumeroDois();
+menuButton1.addEventListener("click", function() {
+    page1.style.display = 'inline-block';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+    page4.style.display = 'none';
+    pageMain.style.display = 'none';
+    scrollTo(scrollX, 0);
 });
 
-const visao2 = cardUmUiUm.addEventListener("click", function() {
-  mostraPaginaNumeroTres();
+menuButton2.addEventListener("click", function() {
+    page1.style.display = 'none';
+    page2.style.display = 'inline-block';
+    page3.style.display = 'none';
+    page4.style.display = 'none';
+    pageMain.style.display = 'none';
+    scrollTo(scrollX, 0);
 });
 
-const visao3 = cardUmUiUmUnderlineUm.addEventListener("click", function() {
-  mostraPaginaNumeroQuatro();
+menuButton3.addEventListener("click", function() {
+    page1.style.display = 'none';
+    page2.style.display = 'none';
+    page3.style.display = 'inline-block';
+    page4.style.display = 'none';
+    pageMain.style.display = 'none';
+    scrollTo(scrollX, 0);
 });
 
-const visao4 = cardDoisUiUm.addEventListener("click", function() {
-  mostraPaginaNumeroCinco();
+menuButton4.addEventListener("click", function() {
+    page1.style.display = 'none';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+    page4.style.display = 'inline-block';
+    pageMain.style.display = 'none';
+    scrollTo(scrollX, 0);
 });
 
-const visaoRetorno1 = botaoRetorno1.addEventListener("click", function() {
-  mostraPaginaNumeroUm();
-});
-
-const visaoRetorno2 = botaoRetorno2.addEventListener("click", function() {
-  mostraPaginaNumeroDois();
-});
-
-const visaoRetorno3 = botaoRetorno3.addEventListener("click", function() {
-  mostraPaginaNumeroTres();
-});
-
-const visaoRetorno4 = botaoRetorno4.addEventListener("click", function() {
-  mostraPaginaNumeroDois();
+menuButtonMain.addEventListener("click", function() {
+    page1.style.display = 'none';
+    page2.style.display = 'none';
+    page3.style.display = 'none';
+    page4.style.display = 'none';
+    pageMain.style.display = 'inline-block';
+    scrollTo(scrollX, 0);
 });

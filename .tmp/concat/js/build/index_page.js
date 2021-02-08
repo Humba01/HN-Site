@@ -1,15 +1,3 @@
-const page = document.getElementById('corpo');
-
-page.style.overflowX = 'hidden';
-
-setTimeout(function() {
-    window.scrollTo(0, scrollY);
-}, 80);
-
-setTimeout(function() {
-    window.scrollTo(scrollX, 0);
-}, 300);
-
 const textSlogan = document.getElementById('check01');
 
 const complementos = [
@@ -81,17 +69,17 @@ setTimeout(function() {
     animacaoTexto();
 }, 300);
 
-var page1 = document.getElementById("pag_cont1");
-var page2 = document.getElementById("pag_cont2");
-var page3 = document.getElementById("pag_cont3");
-var page4 = document.getElementById("pag_cont4");
-var pageMain = document.getElementById("pag_main"); 
+const page1 = document.getElementById("pag_cont1");
+const page2 = document.getElementById("pag_cont2");
+const page3 = document.getElementById("pag_cont3");
+const page4 = document.getElementById("pag_cont4");
+const pageMain = document.getElementById("pag_main"); 
  
-var menuButton1 = document.getElementById("menu_btn1");
-var menuButton2 = document.getElementById("menu_btn2");
-var menuButton3 = document.getElementById("menu_btn3");
-var menuButton4 = document.getElementById("menu_btn4");
-var menuButtonMain = document.getElementById("btn_main");
+const menuButton1 = document.getElementById("menu_btn1");
+const menuButton2 = document.getElementById("menu_btn2");
+const menuButton3 = document.getElementById("menu_btn3");
+const menuButton4 = document.getElementById("menu_btn4");
+const menuButtonMain = document.getElementById("btn_main");
 
 menuButton1.addEventListener("click", function() {
     page1.style.display = 'inline-block';

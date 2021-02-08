@@ -13,12 +13,6 @@ module.exports = function(grunt) {
                 cwd: 'HN-SGMP',
                 src: '**',
                 dest: 'dist'
-            },
-            unote: {
-                expand: true,
-                cwd: 'Humbanew-Unote-Beta',
-                src: '**',
-                dest: 'dist'
             }
         },
 
@@ -58,8 +52,7 @@ module.exports = function(grunt) {
                     'dist/css/29eb.fonts.css',
                     'dist/css/6199.reset.css',
                     'dist/css/configs',
-                    'dist/css/sgmp',
-                    'dist/css/unote'
+                    'dist/css/sgmp'
                 ]
             },
 
@@ -68,6 +61,12 @@ module.exports = function(grunt) {
                     'dist/js/background',
                     'dist/js/config',
                     'dist/js/UI'
+                ]
+            },
+
+            sgmp_html: {
+                src: [
+                    'dist/sgmp.html'
                 ]
             }
         },
@@ -96,25 +95,6 @@ module.exports = function(grunt) {
             },
         },
 
-        connect: {
-            serverDev: {
-                options: {
-                    port: '18000',
-                    base: 'public',
-                    open: true,
-                    livereload: true
-                }
-            },
-            serverProd: {
-                options: {
-                    port: '18100',
-                    base: 'dist',
-                    open: true,
-                    livereload: true
-                }
-            }
-        },
-
         autoprefixer: {
             options: {
                 browsers: 'last 500 versions'
@@ -125,7 +105,19 @@ module.exports = function(grunt) {
         },
 
         jshint: {
-            all: ['public/js/**/*.js', 'HN-SGMP/js/**/*.js', 'Humbanew-Unote-Beta/js/**/*.js']
+            all: ['public/js/**/*.js', 'HN-SGMP/js/**/*.js']
+        },
+
+        uglify: {
+            my_target: {
+                options: {
+                    sourceMap: false
+                }
+            }
+        },
+
+        concat: {
+
         },
 
         imagemin: {    
@@ -144,17 +136,17 @@ module.exports = function(grunt) {
                 collapseWhitespace: true
               },
               files: {                                   // Dictionary of files
-                'dist/default.html': 'public/default.html',     // 'destination': 'source'
-                'dist/build.html': 'public/build.html',
-                'dist/sgmp.html': 'HN-SGMP/sgmp.html',
-                'dist/unote.html': 'Humbanew-UNote-Beta/unote.html'
+                'dist/default.html': 'dist/default.html',     // 'destination': 'source'
+                'dist/build.html': 'dist/build.html',
+                'dist/sgmp/sgmp.html': 'dist/sgmp.html'
               }
             }
           }
     });
 
 
-    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'htmlmin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html']);
+    grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html', 'html_minificado_corretamente']);
+    grunt.registerTask('html_minificado_corretamente', ['htmlmin', 'clean:sgmp_html']);
     grunt.registerTask('serverDev', ['connect:serverDev']);
     grunt.registerTask('serverProd', ['connect:serverProd']);
 

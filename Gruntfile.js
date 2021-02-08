@@ -63,12 +63,6 @@ module.exports = function(grunt) {
                     'dist/js/UI'
                 ]
             },
-
-            sgmp_html: {
-                src: [
-                    'dist/sgmp.html'
-                ]
-            }
         },
 
         useminPrepare: {
@@ -138,7 +132,7 @@ module.exports = function(grunt) {
               files: {                                   // Dictionary of files
                 'dist/default.html': 'dist/default.html',     // 'destination': 'source'
                 'dist/build.html': 'dist/build.html',
-                'dist/sgmp/sgmp.html': 'dist/sgmp.html'
+                'dist/sgmp.html': 'dist/sgmp.html'
               }
             }
           }
@@ -146,7 +140,7 @@ module.exports = function(grunt) {
 
 
     grunt.registerTask('default', ['clean:dist', 'copy', 'autoprefixer', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'imagemin', 'rev', 'usemin', 'clean:xml', 'clean:mp3', 'clean:jasmine', 'clean:outros', 'clean:css', 'clean:js', 'clean:html', 'html_minificado_corretamente']);
-    grunt.registerTask('html_minificado_corretamente', ['htmlmin', 'clean:sgmp_html']);
+    grunt.registerTask('html_minificado_corretamente', ['htmlmin']);
     grunt.registerTask('serverDev', ['connect:serverDev']);
     grunt.registerTask('serverProd', ['connect:serverProd']);
 
